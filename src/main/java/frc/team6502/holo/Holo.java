@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 import javax.xml.crypto.Data;
 
-@Description(group = "frc.team6502", name="Holo", version = "0.0.1", summary = "Shuffleboard image and media displays")
+@Description(group = "frc.team6502", name="Holo", version = "0.0.1", summary = "Shuffleboard image and media display")
 public class Holo extends Plugin {
 
     @Override
