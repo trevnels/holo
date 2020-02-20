@@ -1,4 +1,7 @@
 # holo
+
+[![GitHub version](https://badge.fury.io/gh/trevnels%2Fholo.svg)](https://badge.fury.io/gh/trevnels%2Fholo)
+
 Image and media display for WPILib Shuffleboard
 
 ![Example](https://i.imgur.com/pX6iWqo.png)
