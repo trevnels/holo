@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+group 'frc.team6502'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://first.wpi.edu/FRC/roborio/maven/release/'
+    }
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile(group: "edu.wpi.first.shuffleboard", name: "api", version: '2019.4.1')
+}
+
+javafx {
+    version = '11'
+    modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.media' ]
+}
