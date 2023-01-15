@@ -10,10 +10,13 @@
 <?import javafx.scene.canvas.Canvas?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Text?>
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
       fx:controller="frc.team6502.holo.widget.MediaWidget"
       fx:id="root"
       minWidth="64" minHeight="48"
       spacing="4" alignment="BASELINE_CENTER">
     <MediaView fx:id="mview"/>
+    <Text fx:id="err">Error</Text>
+<!--    <ProgressBar fx:id="progress" >30</ProgressBar>-->
 </VBox>
